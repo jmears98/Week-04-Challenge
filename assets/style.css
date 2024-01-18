@@ -1,0 +1,28 @@
+body {
+    background-color: #333333;    
+}
+.start-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#start-btn-container h1 {
+    color: white;
+}
+
+#start-btn {
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+}
+
+#time-remaining {
+    text-align: right;
+    font-size: 20px;
+}
